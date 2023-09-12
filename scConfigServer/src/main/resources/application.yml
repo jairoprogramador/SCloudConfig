@@ -7,4 +7,4 @@ spring:
       server:
         git:
           default-label: main
-          uri: ${user.dir}\..\scConfigRepository
+          uri: https://github.com/jairoprogramador/scConfigRepository
