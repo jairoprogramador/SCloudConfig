@@ -4,9 +4,9 @@ server:
 spring:
   cloud:
     config:
-      label: main,master,desarrollo,repoGitStatic
       enabled: true
       server:
         git:
-          uri: C:\Users\jgalvez\Developer\proyectos\SCloudConfig\repositoryGit
+          default-label: main
+          uri: ${user.dir}\..\repositoryGit
 

@@ -11,6 +11,6 @@ public class InformationController {
 
     @GetMapping("properties")
     public String viewDiscounts() {
-        return "properties is " + data;
+        return "properties is = " + data;
     }
 }
