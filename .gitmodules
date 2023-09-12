@@ -1,0 +1,3 @@
+[submodule "scConfigRepository"]
+	path = scConfigRepository
+	url = git@github.com:jairoprogramador/scConfigRepository.git
