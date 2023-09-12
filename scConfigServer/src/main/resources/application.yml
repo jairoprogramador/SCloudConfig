@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: ${user.dir}\..\repositoryGit
