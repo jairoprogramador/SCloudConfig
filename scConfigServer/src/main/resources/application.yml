@@ -7,4 +7,4 @@ spring:
       server:
         git:
           default-label: main
-          uri: ${user.dir}\..\repositoryGit
+          uri: ${user.dir}\..\scConfigRepository
