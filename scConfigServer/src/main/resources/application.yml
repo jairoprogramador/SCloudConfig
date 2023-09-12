@@ -1,6 +1,5 @@
 server:
   port: 8888
-
 spring:
   cloud:
     config:
@@ -8,5 +7,4 @@ spring:
       server:
         git:
           default-label: main
-          uri: ${user.dir}\..\repositoryGit
-
+          uri: https://github.com/jairoprogramador/scConfigRepository
