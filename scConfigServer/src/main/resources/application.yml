@@ -1,6 +1,9 @@
 server:
   port: 8888
+
 spring:
+  application:
+    name: configserver
   cloud:
     config:
       enabled: true
@@ -8,3 +11,19 @@ spring:
         git:
           default-label: main
           uri: https://github.com/jairoprogramador/scConfigRepository
+    bus:
+      enabled: true
+      id: configserver
+      trace:
+        enable: true
+      ack:
+        enabled: true
+    stream:
+      kafka:
+        binder:
+          defaultBrokerPort: 39092
+          brokers: localhost
+          autoCreateTopics: true
+          autoAddPartitions: true
+          replicationFactor: 3
+          minPartitionCount: 3
