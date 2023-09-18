@@ -1,12 +1,11 @@
 **.idea
-**.mvn
 **/target/
 
 # BlueJ files
 **/*.ctxt
 
 # Package Files #
-**/*.jar
+**/src/**/*.jar
 **/*.war
 **/*.nar
 **/*.ear
