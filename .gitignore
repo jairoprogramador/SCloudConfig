@@ -5,7 +5,7 @@
 **/*.ctxt
 
 # Package Files #
-**/src/**/*.jar
+**/*.jar
 **/*.war
 **/*.nar
 **/*.ear
